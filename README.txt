@@ -1,7 +1,7 @@
-Orginization Name: BioFriend
-Orginization Page Link: https://github.com/BioFriend
-Orginization Repository Page Link: https://github.com/BioFriend/BioFriend.github.io
-Orginization README.txt File Page Link: https://github.com/BioFriend/BioFriend.github.io/blob/main/README.txt
+Organization Name: BioFriend
+Organization Page Link: https://github.com/BioFriend
+Organization Repository Page Link: https://github.com/BioFriend/BioFriend.github.io
+Organization README.txt File Page Link: https://github.com/BioFriend/BioFriend.github.io/blob/main/README.txt
 Members:
 Team name: BioFriend
 
@@ -22,3 +22,5 @@ https://github.com/saifshai
 
 Discription: 
 BioFriend: a tool that helps people to find better plants to plant (fruit, vegetables, decorative...) in their garden, and helps them to know which seeds are necessary. This app will have exceptional features ; analyzing land compositions and weather, checking plant development, and offers tips to increase productivity.
+
+
