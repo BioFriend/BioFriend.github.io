@@ -1,7 +1,7 @@
 Orginization Name: BioFriend
-https://github.com/BioFriend
-https://github.com/BioFriend/Web-Development
-https://github.com/BioFriend/Web-Development/blob/main/README.txt
+Orginization Page Link: https://github.com/BioFriend
+Orginization Repository Page Link: https://github.com/BioFriend/Web-Development
+Orginization README.txt File Page Link: https://github.com/BioFriend/Web-Development/blob/main/README.txt
 Members:
 AhmedRebai-1: https://github.com/orgs/BioFriend/people/AhmedRebai-1
 MVethanayagam: https://github.com/orgs/BioFriend/people/MVethanayagam
