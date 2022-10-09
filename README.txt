@@ -17,7 +17,7 @@ https://github.com/orgs/BioFriend/people/DevFate
 Team member name: rynak-iqbal (300315593) 
 https://github.com/orgs/BioFriend/people/rynak-iqbal
 
-Team member: saifshai () 
+Team member: saifshai (300293265) 
 https://github.com/orgs/BioFriend/people/saifshai
 
 Discription: 
