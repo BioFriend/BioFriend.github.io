@@ -1,5 +1,3 @@
-/* rynak */
- 
 body{
     margin: 0;
     padding: 0;
@@ -11,7 +9,12 @@ body{
     text-align: center;
     color: white;
   }
- 
+
+  .container {
+    padding: 0 80px;
+    border: 1px solid red;
+  }
+
   .centered {
     position: absolute;
     top: 50%;
