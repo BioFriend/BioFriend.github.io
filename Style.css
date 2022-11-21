@@ -1,4 +1,277 @@
-body {
-    font-family: 'Arial';
-This is a test to check the push
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+ 
+.title {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .container {
+    padding: 0 80px;
+    border: 1px solid red;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+  }
+ 
+.navbar ul {
+    list-style: none;
+    background-color: greenyellow;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+ 
+.navbar li{
+    display: inline-block;
+}
+ 
+  .navbar a {
+    text-decoration: none;
+    color: gray;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+ 
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+ 
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+ 
+  h1.title{
+    font-style: italic;
+  }
+ 
+h1{
+    text-align: center;
+}
+ 
+p{
+    text-align: center;
+}
+ 
+#our_team.column {
+    float: left;
+    width: 18%;
+    padding: 10px;
+}
+ 
+#our_team.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ 
+#our_team.@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+ 
+/*pricing*/
+#pricing-page .pricing {
+ text-align:center;
+ margin:20px 0;
+ color:#666;
+}
+
+#pricing-page .pricing .title {
+ font-size:4em;
+}
+
+#pricing-page .pricing .subtitle {
+ font-size:2em;
+}
+
+#pricing-page .pricing {
+ margin:20px 0;
+ text-align:center;
+ color:#666;
+}
+
+#pricing-page .pricing .title {
+ font-size:1em;
+}
+
+#pricing-page .pricing table {
+ margin:10px auto;
+ text-align:center;
+ border-collapse:collapse;
+}
+
+#pricing-page .pricing table tr td {
+ width:200px;
+}
+
+#pricing-page .pricing table tr:nth-child(even) td {
+ background:#D8E6BC;
+}
+
+#pricing-page .pricing table tr:nth-child(odd) td {
+ background:#BCE075;
+}
+
+#pricing-page .pricing table tr.header td {
+ background:#5B614F;
+ color:#D8E6BC;
+ font-size:3em;
+}
+
+#pricing-page .pricing table tr.header td .price-caption {
+ font-size:0.25em;
+}
+
+#pricing-page .pricing table tr td {
+ padding:10px;
+}
+
+#pricing-page .button-container {
+ text-align:right;
+ margin-top:20px;
+ margin-right:20px;
+}
+
+/*about*/
+
+#about-page .content .title {
+ float:left
+ text-align:left;
+ padding: 20px;
+ color: #...
+}
+
+#about-page .content .text {
+ float:left
+ text-align:justify;
+ padding: 10px;
+ color: #...
+}
+
+#about-page .content .contact {
+ float:left
+ text-align:center;
+ padding: 10px;
+ color: #...
+}
+
+/*home*/
+#home .content {
+  position:relative;
+}
+
+#home .hero-image {
+  max-width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+#home .logo-container {
+  position:absolute;
+  height:200px;
+  top:50px;
+  text-align:center;
+  width:100%;
+}
+
+#home .logo-container img.logo {
+  height:200%;
+}
+
+#home h1 {
+  position:absolute;
+  top:240px;
+  left:0;
+  width:100%;
+  color:rgb(255, 255, 255);
+  font-weight:100;
+  text-align:center;
+  font-size:2em;
+}
+
+#home .button-container {
+  position:absolute;
+  text-align:center;
+  top:530px;
+  width:100%;
+  font-weight:bold;
+}
+
+#home h1 {
+  top:390px;
+}
+
+#home h1 .bold {
+  font-weight:bold;
+}
+
+#home a.button {
+  display:inline-block;
+  background:#6cd171;
+  padding:20px 40px;
+  border-radius:10px;
+  text-decoration:none;
+  color:white;
+  transition: 0.5s;
+  font-size:2em;
+  
+}
+
+#home a.button:hover {
+  background:#36702b;
+}
+
+#home .news {
+  position:relative;
+  top:700px;
+  border: 4px solid #6cd171;;
+  background-color: rgb(192, 226, 187);
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 400;
+}
+
+#home .news::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#home .news img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#home .news span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+#home .socials {
+  position: absolute;
+  left: 0;
+  top: 1050;
+  height: 100%;
+  width: 100%;
+  text-align: center;
 }
