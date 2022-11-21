@@ -172,3 +172,106 @@ p{
  padding: 10px;
  color: #...
 }
+
+/*home*/
+#home .content {
+  position:relative;
+}
+
+#home .hero-image {
+  max-width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+#home .logo-container {
+  position:absolute;
+  height:200px;
+  top:50px;
+  text-align:center;
+  width:100%;
+}
+
+#home .logo-container img.logo {
+  height:200%;
+}
+
+#home h1 {
+  position:absolute;
+  top:240px;
+  left:0;
+  width:100%;
+  color:rgb(255, 255, 255);
+  font-weight:100;
+  text-align:center;
+  font-size:2em;
+}
+
+#home .button-container {
+  position:absolute;
+  text-align:center;
+  top:530px;
+  width:100%;
+  font-weight:bold;
+}
+
+#home h1 {
+  top:390px;
+}
+
+#home h1 .bold {
+  font-weight:bold;
+}
+
+#home a.button {
+  display:inline-block;
+  background:#6cd171;
+  padding:20px 40px;
+  border-radius:10px;
+  text-decoration:none;
+  color:white;
+  transition: 0.5s;
+  font-size:2em;
+  
+}
+
+#home a.button:hover {
+  background:#36702b;
+}
+
+#home .news {
+  position:relative;
+  top:700px;
+  border: 4px solid #6cd171;;
+  background-color: rgb(192, 226, 187);
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 400;
+}
+
+#home .news::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#home .news img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#home .news span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+#home .socials {
+  position: absolute;
+  left: 0;
+  top: 1050;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
