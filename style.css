@@ -5,61 +5,70 @@ body{
 }
  
 .title {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
+  position: relative;
+  text-align: center;
+  color: white;
+  vertical-align: text-bottom;
+}
 
-  .container {
-    padding: 0 80px;
-    border: 1px solid red;
-  }
+.title img{
+  display:block;
+  width: 100%;
+}
 
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: xx-large;
-  }
- 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: xx-large;
+}
+
+.centered img{
+  height: 180px;
+}
+
+
 .navbar ul {
-    list-style: none;
-    background-color: greenyellow;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+  list-style: none;
+  background-color: #9ee73d;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border: none !important;
 }
- 
+
 .navbar li{
-    display: inline-block;
+  display: inline-block;
 }
+
+.navbar a {
+  text-decoration: none;
+  color: #555555;
+  width: 100px;
+  display: block;
+  padding: 25px 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
  
-  .navbar a {
-    text-decoration: none;
-    color: gray;
-    width: 100px;
-    display: block;
-    padding: 25px 20px;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-  }
- 
-  .navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
- 
-  .navbar a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
- 
-  h1.title{
-    font-style: italic;
-  }
+h1.title{
+  font-style: italic;
+}
  
 h1{
     text-align: center;
@@ -69,23 +78,7 @@ p{
     text-align: center;
 }
  
-#our_team.column {
-    float: left;
-    width: 18%;
-    padding: 10px;
-}
- 
-#our_team.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
- 
-#our_team.@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-}
+
  
 /*pricing*/
 #pricing-page .pricing {
@@ -274,5 +267,97 @@ p{
   height: 100%;
   width: 100%;
   text-align: center;
+}
+
+#about_us body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background-image: url("soil.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#about_us h1{
+  text-align: center;
+  color: white;
+  font-weight: normal;
+}
+
+#about_us .bold{
+font-weight: bold;
+}
+
+#about_us p{
+  text-align: center;
+}
+
+#about_us .wrapper{
+margin-top: 60px;
+text-align: center;
+padding-bottom: 8%;
+}
+
+#about_us .wrapper h1{
+font-size: 48px;
+color: #fff;
+margin-bottom: 25px;
+}
+
+#about_us .our_team{
+width: auto;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+#about_us .our_team .team_member{
+width: 250px;
+margin: 5px;
+background: #c8b88a;
+padding: 20px 10px;
+border-radius: 25px;
+}
+
+#about_us .our_team .team_member .member_img{
+background: #e9e5fa;  
+max-width: 190px;
+width: 100%;
+height: 190px;
+margin: 0 auto;
+clip-path: circle();
+}
+
+#about_us .our_team .team_member .member_img img{
+width: 100%;
+height: 100%;
+}
+
+#about_us .our_team .team_member h3{
+text-transform: uppercase;
+font-size: 18px;
+line-height: 18px;
+letter-spacing: 1px;
+margin: 15px 0 0px;
+}
+
+#about_us .our_team .team_member span{
+font-size: 10px;
+}
+
+#about_us .our_team .team_member p{
+margin-top: 20px;
+font-size: 14px;
+line-height: 20px;
+}
+
+#about_us body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background-image: url("Mockups/soil.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 

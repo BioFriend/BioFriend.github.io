@@ -9,6 +9,8 @@
 
 .section img{
     height: 250px;
+    width: 350px;
+    align-items: right;
     
 }
 
