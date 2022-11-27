@@ -166,6 +166,60 @@ p{
  color: #...
 }
 
+p1About {color: white}
+p2About {font-size: 32px ; color: black}
+preAbout {color: black; font-size: 18px;align="justify" style="border-width:3px; border-style:solid; border-color:#028d43; padding:0.5em;"}
+* {
+    box-sizing: border-box;
+}
+bodyAbout {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Two boxes floats next to each other */
+navAbout {
+    float: left;
+    width: 67%;
+    height: 420px;
+    background: white;
+    padding: 20px;
+}
+/* Style the list inside the menu */
+navAbout ul {
+    list-style-type: none;
+    padding: 0;
+}
+        
+articleAbout {
+    float: left;
+    padding: 20px;
+    width: 33%;
+    background-color: white;
+    height: 420px;
+}
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footerAbout {
+    background-color: green;
+    padding: 0px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    navAbout, articleAbout {
+        width: 100%;
+        height: auto;
+    }
+}
+
 /*home*/
 #home .content {
   position:relative;
