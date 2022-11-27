@@ -166,17 +166,26 @@ p{
  color: #...
 }
 
-p1About {color: white}
-p2About {font-size: 32px ; color: black}
-preAbout {color: black; font-size: 18px;align="justify" style="border-width:3px; border-style:solid; border-color:#028d43; padding:0.5em;"}
+#about-page .content .p1About {color: white}
+#about-page .content .p2About {font-size: 32px ; color: black}
+#about-page .content .preAbout {
+    color: black; 
+    font-size: 18px;
+    align="justify";
+    style="border-width:3px;
+    border-style:solid;
+    border-color:#028d43;
+    padding:0.5em;
+    background-color : blanchedalmond;"
+}
 * {
     box-sizing: border-box;
 }
-bodyAbout {
+#about-page .content .bodyAbout {
     font-family: Arial, Helvetica, sans-serif;
 }
 /* Two boxes floats next to each other */
-navAbout {
+#about-page .content .navAbout {
     float: left;
     width: 67%;
     height: 420px;
@@ -184,12 +193,12 @@ navAbout {
     padding: 20px;
 }
 /* Style the list inside the menu */
-navAbout ul {
+#about-page .content .navAbout ul {
     list-style-type: none;
     padding: 0;
 }
         
-articleAbout {
+#about-page .content .articleAbout {
     float: left;
     padding: 20px;
     width: 33%;
