@@ -182,7 +182,7 @@ bodyAbout {
 spacingAbout {
     width:4%;
     float: left;
-    background: white;
+    background: none;
     height: 300px;
     padding: 20px;
 }
@@ -190,7 +190,7 @@ spacingAbout {
 spacingAbout2 {
     width: 3%;
     float: left;
-    background: white;
+    background: none;
     height: 300px;
     padding: 20px;
 }
@@ -198,7 +198,7 @@ spacingAbout2 {
 spacingAbout3 {
     width: 100%;
     float: left;
-    background: white;
+    background: none;
     height: 20px;
     padding: 20px;
 }
