@@ -146,64 +146,88 @@ p{
 /*about*/
 
 #about-page .content .title {
- float:left
+ float:left;
  text-align:left;
  padding: 20px;
- color: #...
 }
 
 #about-page .content .text {
- float:left
+ float:left;
  text-align:justify;
  padding: 10px;
- color: #...
 }
 
 #about-page .content .contact {
- float:left
+ float:left;
  text-align:center;
  padding: 10px;
- color: #...
 }
 
-#about-page .content .p1About {color: white}
-#about-page .content .p2About {font-size: 32px ; color: black}
-#about-page .content .preAbout {
-    color: black; 
+p1About {color: white}
+p2About {font-size: 32px ; color: black}
+preAbout {
+    color: black;
     font-size: 18px;
-    align="justify";
-    style="border-width:3px;
-    border-style:solid;
-    border-color:#028d43;
-    padding:0.5em;
-    background-color : blanchedalmond;"
+    text-align: justify;
+    padding: 0.5em;
 }
 * {
     box-sizing: border-box;
 }
-#about-page .content .bodyAbout {
+bodyAbout {
     font-family: Arial, Helvetica, sans-serif;
 }
 /* Two boxes floats next to each other */
-#about-page .content .navAbout {
+
+spacingAbout {
+    width:4%;
     float: left;
-    width: 67%;
-    height: 420px;
-    background: white;
+    background: none;
+    height: 300px;
+    padding: 20px;
+}
+
+spacingAbout2 {
+    width: 3%;
+    float: left;
+    background: none;
+    height: 300px;
+    padding: 20px;
+}
+
+spacingAbout3 {
+    width: 100%;
+    float: left;
+    background: none;
+    height: 20px;
+    padding: 20px;
+}
+
+navAbout {
+    float: left ;
+    width: 60%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #028d43;
+    height: 300px;
+    background: #c8b88a;
     padding: 20px;
 }
 /* Style the list inside the menu */
-#about-page .content .navAbout ul {
+navAbout ul {
     list-style-type: none;
     padding: 0;
 }
-        
-#about-page .content .articleAbout {
+
+articleAbout {
     float: left;
     padding: 20px;
-    width: 33%;
-    background-color: white;
-    height: 420px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #028d43;
+    width: 30%;
+    background-color: #c8b88a;
+    height: 300px;
 }
 
 /* Clear floats after the columns */
@@ -219,6 +243,10 @@ footerAbout {
     padding: 0px;
     text-align: center;
     color: white;
+    float: left;
+    padding: 40px;
+    width: 100%;
+    height: 20px;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
@@ -423,4 +451,3 @@ line-height: 20px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
